@@ -14,7 +14,7 @@ async function receive() {
 
   await consumer.run({
     eachMessage: async ({ topic, partition, message }) => {
-      console.log("Incoming =>", topic);
+      console.log(`Incoming Detail => ${topic}:${partition}`);
       console.log({
         value: message.value.toString(),
       });

@@ -19,7 +19,7 @@ async function send() {
 
   await producer.send({
     topic: "topic-test",
-    messages: [{ value: "Hello KafkaJS user! V.2 5"}],
+    messages: [{ value: "Hello KafkaJS user! V.2 5 2"}],
   });
 
   await producer.disconnect();
