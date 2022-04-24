@@ -5,7 +5,7 @@
 ### .send option 
 | property        | description           | default  |
 | ------------- |:-------------:| -----:|
-| messages      | "key" (optional), "value" (required), "partition" (optional), "timestamp" (optional), "headers" (optional) | null |
+| messages      | "key" (optional). "value" (required). "partition" (optional). "timestamp" (optional). "headers" (optional). | null |
 
 
 Everything about producer & producer.send in the link below
